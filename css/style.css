@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  background: #000 url(../img/main-bg.jpg) no-repeat top center;
+  color: #fff;
+}
+
+.inner {
+  background: #f9f6f3 url(../img/page-bg.jpg) repeat;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.site-navigation,
+.user-navigation,
+.features-list,
+.news-list,
+.breadcrumbs-list,
+.footer-social ul {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #fff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-columns {
+  background: #f8f5f2 url(../img/page-bg.jpg);
+  color: #000;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.news-item time {
+  text-transform: none;
+}
+
+.gallery-content {
+  background-color: #ccc;
+  border: 7px solid #fff;
+}
+
+.appointment-item input {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #000;
+}
+
+.appointment-item input:focus {
+  border-color: #663d15;
+}
+
+.main-footer {
+  background: #212121 url(../img/footer-bg.jpg) repeat;
+  color: #fff;
+}
+
+.footer-contacts a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.social-button {
+  color: #fff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+.modal {
+  background: #f8f3f0 url(../img/page-bg.jpg) repeat;
+  color: #000;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  text-transform: uppercase;
+  background-color: #f9f6f3;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.login-form input:focus {
+  border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15;
+}
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
