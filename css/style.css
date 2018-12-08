@@ -127,9 +127,26 @@ a {
 
 /* Main nav @ inner pages
 - - - - - - - - - - - - - - - - - - - -*/
+.inner .main-header {
+  margin-bottom: 50px;
+  background-color: #000;
+}
+
 .inner .main-navigation {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.inner .main-header-logo {
+  order: 0;
+  width: 111px;
+  height: 24px;
+  padding: 23px 20px;
+}
+
+.inner .user-navigation {
+  margin-left: auto;
 }
 
 /* Features
@@ -213,9 +230,20 @@ a {
   border-color: #663d15;
 }
 
+/* Inner page title
+- - - - - - - - - - - - - - - - - - - -*/
 .page-title {
+  margin: 0 0 15px;
+  padding: 0;
+
   font-size: 30px;
   line-height: 42px;
+}
+
+/* Breadcrumbs
+- - - - - - - - - - - - - - - - - - - -*/
+.breadcrumbs-list {
+  margin-bottom: 15px;
 }
 
 .breadcrumbs-list a {
@@ -229,6 +257,19 @@ a {
 
 .breadcrumbs-item-current {
   color: #aba9a7;
+}
+
+/* Catalog page
+- - - - - - - - - - - - - - - - - - - -*/
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Filters
+- - - - - - - - - - - - - - - - - - - -*/
+.filters {
+  width: 180px;
 }
 
 .filter fieldset {
@@ -254,29 +295,49 @@ a {
   opacity: .5;
 }
 
+/* Products list
+- - - - - - - - - - - - - - - - - - - -*/
+.catalog {
+  width: 700px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
 .product-item {
+  width: 220px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
   background-color: #f8f8f8;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.catalog-item:hover {
+.product-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.product-item:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.catalog-item a {
+.product-item a {
   color: #000;
 }
 
-.catalog-item h3 {
+.product-item h3 {
   font-size: 14px;
   line-height: 18px;
 }
 
-.catalog-category {
+.product-category {
   text-transform: none;
 }
 
-.catalog-item-price b {
+.product-price b {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
@@ -284,7 +345,7 @@ a {
   background-color: #e5e5e5;
 }
 
-.catalog-item-price .button {
+.product-price .button {
   line-height: 20px;
   color: #fff;
 }
@@ -385,6 +446,13 @@ a {
   background-color: #fff;
   color: #000;
 }
+
+/* Inner page footer
+- - - - - - - - - - - - - - - - - - - -*/
+.inner .main-footer {
+  margin-top: 45px;
+}
+
 
 .modal {
   background: #f8f3f0 url(../img/page-bg.jpg) repeat;
